@@ -35,7 +35,7 @@ import { RouterLink } from 'vue-router';
             :delay="700"
             :duration="1200"
             >
-                <router-link class="btn-start" to="/keef-cafe/home">المنيو</router-link>
+                <router-link class="btn-start" to="/menu">المنيو</router-link>
             </div>
         </div>
     </div>
