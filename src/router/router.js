@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router';
 import mainPage from "../components/mainPage.vue"
 import allPages from "../components/allPages.vue"
 import hooka from '../components/hooka.vue'
@@ -66,7 +66,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 })
 
